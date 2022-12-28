@@ -2,7 +2,7 @@ import React from "react";
 
 const StudentDetails = () => {
   return (
-    <div className="xl:absolute m-10 top-20 right-24 flex flex-col gap-1">
+    <div className="xl:absolute m-10 top-20 right-8 flex flex-col gap-1">
       <span className="text-2xl bg-cyan-500 px-8 py-5 rounded-xl text-white font-bold">
         Pythagoras Theorem Calculator
       </span>

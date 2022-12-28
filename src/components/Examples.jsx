@@ -6,7 +6,7 @@ import math3 from "../assets/pythagsub.gif";
 import math4 from "../assets/pythagorean-theorem.jpg";
 const Examples = () => {
   return (
-    <div className="flex flex-col items-center justify-center lg:mt-96 mb-20">
+    <div className="flex flex-col items-center justify-center lg:mt-[33rem]  mb-20">
       <div className="lg:absolute top-20 left-20 m-10">
         <Link to="/">
           <button className="text-2xl bg-pink-500 hover:bg-pink-600 duration-200 text-right px-8 py-5 rounded-xl text-white">
