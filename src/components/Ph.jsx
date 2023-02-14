@@ -37,6 +37,14 @@ const Ph = () => {
     }
   };
 
+  function findThirdSide(a, b) {
+    return Math.sqrt(a * a + b * b);
+  }
+
+  function findFirstSide(c, side) {
+    return Math.sqrt(c * c - side * side);
+  }
+
   useEffect(() => {
     if (AInput !== "" && BInput !== "") {
       setFlag(true);
@@ -49,13 +57,6 @@ const Ph = () => {
     }
   }, [AInput, BInput, CInput]);
 
-  function findThirdSide(a, b) {
-    return Math.sqrt(a * a + b * b);
-  }
-
-  function findFirstSide(c, side) {
-    return Math.sqrt(c * c - side * side);
-  }
   return (
     <div>
       <ExampleButton />
