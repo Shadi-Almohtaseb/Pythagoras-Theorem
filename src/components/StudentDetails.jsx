@@ -7,15 +7,13 @@ const StudentDetails = () => {
         Pythagoras Theorem Calculator
       </span>
       <span className="text-2xl bg-cyan-500 text-right px-8 py-5 rounded-xl text-white">
-        <p>:عمل الطالبتين</p>
-        <p>حلا ابو خالد -</p>
-        <p>عرين شريف -</p>
+        <p>Calculate any edge length</p>
       </span>
       <span className="text-2xl bg-cyan-500 text-right px-8 py-5 rounded-xl text-white">
-        بإشراف المعلمة: اريج سلطان
+        Real Examples Page
       </span>
       <span className="text-2xl bg-cyan-500 text-right px-8 py-5 rounded-xl text-white">
-        مدرسة الدكتور حافظ عبد النبي النتشة
+        Form Validation
       </span>
     </div>
   );
